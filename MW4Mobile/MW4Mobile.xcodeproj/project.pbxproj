@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE04F1A22143274700FD5AB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE04F1A12143274700FD5AB9 /* AppDelegate.swift */; };
+		DE04F1A72143274700FD5AB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE04F1A52143274700FD5AB9 /* Main.storyboard */; };
+		DE04F1AA2143274700FD5AB9 /* MW4Mobile.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE04F1A82143274700FD5AB9 /* MW4Mobile.xcdatamodeld */; };
+		DE04F1AC2143275300FD5AB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE04F1AB2143275300FD5AB9 /* Assets.xcassets */; };
+		DE04F1AF2143275300FD5AB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE04F1AD2143275300FD5AB9 /* LaunchScreen.storyboard */; };
+		DE04F1BA2143275400FD5AB9 /* MW4MobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE04F1B92143275400FD5AB9 /* MW4MobileTests.swift */; };
+		DE04F1C52143275400FD5AB9 /* MW4MobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE04F1C42143275400FD5AB9 /* MW4MobileUITests.swift */; };
+		DE04F1D3214328A200FD5AB9 /* VoorpaginaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE04F1D2214328A200FD5AB9 /* VoorpaginaTableViewController.swift */; };
+		DE04F1D52143290500FD5AB9 /* XmlParserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE04F1D42143290500FD5AB9 /* XmlParserManager.swift */; };
+		DE04F1D7214329A500FD5AB9 /* FeedItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE04F1D6214329A500FD5AB9 /* FeedItemViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE04F1B62143275400FD5AB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE04F1962143274700FD5AB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE04F19D2143274700FD5AB9;
+			remoteInfo = MW4Mobile;
+		};
+		DE04F1C12143275400FD5AB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE04F1962143274700FD5AB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE04F19D2143274700FD5AB9;
+			remoteInfo = MW4Mobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE04F19E2143274700FD5AB9 /* MW4Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MW4Mobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE04F1A12143274700FD5AB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE04F1A62143274700FD5AB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE04F1A92143274700FD5AB9 /* MW4Mobile.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MW4Mobile.xcdatamodel; sourceTree = "<group>"; };
+		DE04F1AB2143275300FD5AB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE04F1AE2143275300FD5AB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE04F1B02143275300FD5AB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE04F1B52143275400FD5AB9 /* MW4MobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MW4MobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE04F1B92143275400FD5AB9 /* MW4MobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MW4MobileTests.swift; sourceTree = "<group>"; };
+		DE04F1BB2143275400FD5AB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE04F1C02143275400FD5AB9 /* MW4MobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MW4MobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE04F1C42143275400FD5AB9 /* MW4MobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MW4MobileUITests.swift; sourceTree = "<group>"; };
+		DE04F1C62143275400FD5AB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE04F1D2214328A200FD5AB9 /* VoorpaginaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoorpaginaTableViewController.swift; sourceTree = "<group>"; };
+		DE04F1D42143290500FD5AB9 /* XmlParserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XmlParserManager.swift; sourceTree = "<group>"; };
+		DE04F1D6214329A500FD5AB9 /* FeedItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE04F19B2143274700FD5AB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE04F1B22143275400FD5AB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE04F1BD2143275400FD5AB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE04F1952143274700FD5AB9 = {
+			isa = PBXGroup;
+			children = (
+				DE04F1A02143274700FD5AB9 /* MW4Mobile */,
+				DE04F1B82143275400FD5AB9 /* MW4MobileTests */,
+				DE04F1C32143275400FD5AB9 /* MW4MobileUITests */,
+				DE04F19F2143274700FD5AB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE04F19F2143274700FD5AB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE04F19E2143274700FD5AB9 /* MW4Mobile.app */,
+				DE04F1B52143275400FD5AB9 /* MW4MobileTests.xctest */,
+				DE04F1C02143275400FD5AB9 /* MW4MobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE04F1A02143274700FD5AB9 /* MW4Mobile */ = {
+			isa = PBXGroup;
+			children = (
+				DE04F1A12143274700FD5AB9 /* AppDelegate.swift */,
+				DE04F1A52143274700FD5AB9 /* Main.storyboard */,
+				DE04F1AB2143275300FD5AB9 /* Assets.xcassets */,
+				DE04F1AD2143275300FD5AB9 /* LaunchScreen.storyboard */,
+				DE04F1B02143275300FD5AB9 /* Info.plist */,
+				DE04F1A82143274700FD5AB9 /* MW4Mobile.xcdatamodeld */,
+				DE04F1D2214328A200FD5AB9 /* VoorpaginaTableViewController.swift */,
+				DE04F1D42143290500FD5AB9 /* XmlParserManager.swift */,
+				DE04F1D6214329A500FD5AB9 /* FeedItemViewController.swift */,
+			);
+			path = MW4Mobile;
+			sourceTree = "<group>";
+		};
+		DE04F1B82143275400FD5AB9 /* MW4MobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE04F1B92143275400FD5AB9 /* MW4MobileTests.swift */,
+				DE04F1BB2143275400FD5AB9 /* Info.plist */,
+			);
+			path = MW4MobileTests;
+			sourceTree = "<group>";
+		};
+		DE04F1C32143275400FD5AB9 /* MW4MobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE04F1C42143275400FD5AB9 /* MW4MobileUITests.swift */,
+				DE04F1C62143275400FD5AB9 /* Info.plist */,
+			);
+			path = MW4MobileUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE04F19D2143274700FD5AB9 /* MW4Mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE04F1C92143275400FD5AB9 /* Build configuration list for PBXNativeTarget "MW4Mobile" */;
+			buildPhases = (
+				DE04F19A2143274700FD5AB9 /* Sources */,
+				DE04F19B2143274700FD5AB9 /* Frameworks */,
+				DE04F19C2143274700FD5AB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MW4Mobile;
+			productName = MW4Mobile;
+			productReference = DE04F19E2143274700FD5AB9 /* MW4Mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE04F1B42143275400FD5AB9 /* MW4MobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE04F1CC2143275400FD5AB9 /* Build configuration list for PBXNativeTarget "MW4MobileTests" */;
+			buildPhases = (
+				DE04F1B12143275400FD5AB9 /* Sources */,
+				DE04F1B22143275400FD5AB9 /* Frameworks */,
+				DE04F1B32143275400FD5AB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE04F1B72143275400FD5AB9 /* PBXTargetDependency */,
+			);
+			name = MW4MobileTests;
+			productName = MW4MobileTests;
+			productReference = DE04F1B52143275400FD5AB9 /* MW4MobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE04F1BF2143275400FD5AB9 /* MW4MobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE04F1CF2143275400FD5AB9 /* Build configuration list for PBXNativeTarget "MW4MobileUITests" */;
+			buildPhases = (
+				DE04F1BC2143275400FD5AB9 /* Sources */,
+				DE04F1BD2143275400FD5AB9 /* Frameworks */,
+				DE04F1BE2143275400FD5AB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE04F1C22143275400FD5AB9 /* PBXTargetDependency */,
+			);
+			name = MW4MobileUITests;
+			productName = MW4MobileUITests;
+			productReference = DE04F1C02143275400FD5AB9 /* MW4MobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE04F1962143274700FD5AB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Margreet Wijers";
+				TargetAttributes = {
+					DE04F19D2143274700FD5AB9 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					DE04F1B42143275400FD5AB9 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = DE04F19D2143274700FD5AB9;
+					};
+					DE04F1BF2143275400FD5AB9 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = DE04F19D2143274700FD5AB9;
+					};
+				};
+			};
+			buildConfigurationList = DE04F1992143274700FD5AB9 /* Build configuration list for PBXProject "MW4Mobile" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE04F1952143274700FD5AB9;
+			productRefGroup = DE04F19F2143274700FD5AB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE04F19D2143274700FD5AB9 /* MW4Mobile */,
+				DE04F1B42143275400FD5AB9 /* MW4MobileTests */,
+				DE04F1BF2143275400FD5AB9 /* MW4MobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE04F19C2143274700FD5AB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE04F1AF2143275300FD5AB9 /* LaunchScreen.storyboard in Resources */,
+				DE04F1AC2143275300FD5AB9 /* Assets.xcassets in Resources */,
+				DE04F1A72143274700FD5AB9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE04F1B32143275400FD5AB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE04F1BE2143275400FD5AB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE04F19A2143274700FD5AB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE04F1A22143274700FD5AB9 /* AppDelegate.swift in Sources */,
+				DE04F1AA2143274700FD5AB9 /* MW4Mobile.xcdatamodeld in Sources */,
+				DE04F1D7214329A500FD5AB9 /* FeedItemViewController.swift in Sources */,
+				DE04F1D3214328A200FD5AB9 /* VoorpaginaTableViewController.swift in Sources */,
+				DE04F1D52143290500FD5AB9 /* XmlParserManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE04F1B12143275400FD5AB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE04F1BA2143275400FD5AB9 /* MW4MobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE04F1BC2143275400FD5AB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE04F1C52143275400FD5AB9 /* MW4MobileUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE04F1B72143275400FD5AB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE04F19D2143274700FD5AB9 /* MW4Mobile */;
+			targetProxy = DE04F1B62143275400FD5AB9 /* PBXContainerItemProxy */;
+		};
+		DE04F1C22143275400FD5AB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE04F19D2143274700FD5AB9 /* MW4Mobile */;
+			targetProxy = DE04F1C12143275400FD5AB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE04F1A52143274700FD5AB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE04F1A62143274700FD5AB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE04F1AD2143275300FD5AB9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE04F1AE2143275300FD5AB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE04F1C72143275400FD5AB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE04F1C82143275400FD5AB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE04F1CA2143275400FD5AB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2S2ASL4L7A;
+				INFOPLIST_FILE = MW4Mobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Margreet.MW4Mobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE04F1CB2143275400FD5AB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2S2ASL4L7A;
+				INFOPLIST_FILE = MW4Mobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Margreet.MW4Mobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE04F1CD2143275400FD5AB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2S2ASL4L7A;
+				INFOPLIST_FILE = MW4MobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Margreet.MW4MobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MW4Mobile.app/MW4Mobile";
+			};
+			name = Debug;
+		};
+		DE04F1CE2143275400FD5AB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2S2ASL4L7A;
+				INFOPLIST_FILE = MW4MobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Margreet.MW4MobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MW4Mobile.app/MW4Mobile";
+			};
+			name = Release;
+		};
+		DE04F1D02143275400FD5AB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2S2ASL4L7A;
+				INFOPLIST_FILE = MW4MobileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Margreet.MW4MobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MW4Mobile;
+			};
+			name = Debug;
+		};
+		DE04F1D12143275400FD5AB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2S2ASL4L7A;
+				INFOPLIST_FILE = MW4MobileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Margreet.MW4MobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MW4Mobile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE04F1992143274700FD5AB9 /* Build configuration list for PBXProject "MW4Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE04F1C72143275400FD5AB9 /* Debug */,
+				DE04F1C82143275400FD5AB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE04F1C92143275400FD5AB9 /* Build configuration list for PBXNativeTarget "MW4Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE04F1CA2143275400FD5AB9 /* Debug */,
+				DE04F1CB2143275400FD5AB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE04F1CC2143275400FD5AB9 /* Build configuration list for PBXNativeTarget "MW4MobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE04F1CD2143275400FD5AB9 /* Debug */,
+				DE04F1CE2143275400FD5AB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE04F1CF2143275400FD5AB9 /* Build configuration list for PBXNativeTarget "MW4MobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE04F1D02143275400FD5AB9 /* Debug */,
+				DE04F1D12143275400FD5AB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DE04F1A82143274700FD5AB9 /* MW4Mobile.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DE04F1A92143274700FD5AB9 /* MW4Mobile.xcdatamodel */,
+			);
+			currentVersion = DE04F1A92143274700FD5AB9 /* MW4Mobile.xcdatamodel */;
+			path = MW4Mobile.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DE04F1962143274700FD5AB9 /* Project object */;
+}
